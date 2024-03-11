@@ -1,0 +1,15 @@
+# Site settings
+title: Walk-the-Talk Blog
+tag_text: walk-the-talk
+description: Walk-the-Talk is an adaption of MotionGPT, a GPT-3 model fine-tuned on a large dataset of human motion capture data. This blog is an exploration of the capabilities of Walk-the-Talk and the potential applications of this technology in autonomous systems, robotics, and animation.
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
+# url: "https://example.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+plugins:
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
