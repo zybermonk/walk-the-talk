@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Walk-the-Talk is an adaption of MotionGPT, a T5 language model fine-tuned on a domain specific dataset of human motion capture in the field of autonomous driving.[...]
+    <meta name="description" content="Walk-the-Talk is an adaption of MotionGPT, a T5 language model fine-tuned on a domain specific dataset of human motion capture in the field of autonomous driving. This research explores the capabilities of Walk-the-Talk and its potential applications in autonomous systems, robotics, and animation.">
     <title>Walk-the-Talk: LLM-driven Pedestrian Motion Generation</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -122,7 +122,7 @@
                 <div class="video-item">
                     <pre><code>A non attentive pedestrian</code></pre>
                     <video src="assets/non_attentive.mp4" loop autoplay muted></video>
-                    <p class="caption">Example prompt: A pedestrian crossing the street sudden stops upon encountring an oncoming vehicle from the left, stops, apologies and gives way by making hand g[...]
+                    <p class="caption">Example prompt: A pedestrian crossing the street sudden stops upon encountring an oncoming vehicle from the left, stops, apologies and gives way by making hand gestures</p>
                 </div>
                 <div class="video-item">
                     <pre><code>Cop monitoring an accident</code></pre>
@@ -134,7 +134,7 @@
                 <div class="video-item">
                     <pre><code>A jaywalker emerging between parked vehicles</code></pre>
                     <video src="assets/jaywalk.mp4" loop autoplay muted></video>
-                    <p class="caption">Example prompt: A jaywalking pedestrian crosses the street while looking both ways, sudden stops upon encountering an oncoming vehicle from the left, apologises [...]
+                    <p class="caption">Example prompt: A jaywalking pedestrian crosses the street while looking both ways, sudden stops upon encountering an oncoming vehicle from the left, apologises and walks back anxiously</p>
                 </div>
                 <div class="video-item">
                     <pre><code>An intoxicated VRU causing nuisance</code></pre>
@@ -152,7 +152,7 @@
         <section id="abstract">
             <h2>Paper Abstract</h2>
             <div class="abstract">
-                <p>In the field of autonomous driving, a key challenge is the "reality gap": transferring knowledge gained in simulation to real-world settings. Despite various approaches to mitigate [...]
+                <p>In the field of autonomous driving, a key challenge is the "reality gap": transferring knowledge gained in simulation to real-world settings. Despite various approaches to mitigate this gap, there’s a notable absence of solutions targeting agent behavior generation which are crucial for mimicking spontaneous, erratic, and realistic actions of traffic participants. Recent advancements in Generative AI have enabled the representation of human activities in semantic space and generate real human motion from textual descriptions. Despite current limitations such as modality constraints, motion sequence length, resource demands, and data specificity, there’s an opportunity to innovate and use these techniques in the intelligent vehicles domain. We propose Walk-the-Talk, a motion generator utilizing Large Language Models (LLMs) to produce reliable pedestrian motions for high-fidelity simulators like CARLA. Thus, we contribute to autonomous driving simulations by aiming to scale realistic, diverse long-tail agent motion data - currently a gap in training datasets. We employ Motion Capture (MoCap) techniques to develop the Walk-the-Talk dataset, which illustrates a broad spectrum of pedestrian behaviors in street-crossing scenarios, ranging from standard walking patterns to extreme behaviors such as drunk walking and near-crash incidents. By utilizing this new dataset within a LLM, we facilitate the creation of realistic pedestrian motion sequences, a capability previously unattainable. Additionally, our findings demonstrate that leveraging the Walk-the-Talk dataset enhances cross-domain generalization and significantly improves the Fréchet Inception Distance (FID) score by approximately 15% on the HumanML3D dataset.</p>
             </div>
         </section>
 
